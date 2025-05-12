@@ -1,0 +1,45 @@
+
+body {
+    font-family: sans-serif;
+    text-align: center;
+    background-color: #e7e7e7;
+  }
+
+  h1 {
+    color: #2c2c2c;
+  }
+
+  #faltan {
+    font-size: 20px;
+    color: #000000;
+    margin-bottom: 15px;
+  }
+
+  #album {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    max-width: 1500px;
+    margin: 0 auto;
+  }
+  
+  .figurita {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+  }
+  
+
+  .figurita.marcada {
+    background-color: #4caf50; /* verde */
+    color: white;
+
+  }
+  
